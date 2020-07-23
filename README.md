@@ -7,6 +7,8 @@ A ,simple and directed acyclic graph(DAG) based, data pipeline filtering, cleani
 Building a pipeline on a  real world data pipeline project.
 Dataset  comes from a Hacker News (HN) API that returns JSON data of the top stories in 2014.For making it easier, I  downloaded a list of JSON posts to a file called hn_stories_2014.json.
 
+For the purpose of editing title names, we need to get rid of certain grammar words which are stored in stopwords.py. We can also import stopwords from NLTK library.
+
 Specifically, the data pipeline retrieves the 100 most populars keywords in the titles of articles in Hacker News.
 
 Each post has a set of keys. Here is a description of the most relevant keys:
