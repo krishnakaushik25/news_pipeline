@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@krishnakaushik25 
-raghav1397
-/
-Hacker-News-Pipeline
-0
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Hacker-News-Pipeline/hacker.py /
-@raghav1397
-raghav1397 Add files via upload
-Latest commit f203dab on Jun 4, 2019
- History
- 1 contributor
-72 lines (60 sloc)  2.1 KB
-  
 from datetime import datetime
 import json
 import io
@@ -98,17 +68,6 @@ def top_keywords(word_freq):
     ]
     return freq_tuple[:100]
 
-ran = pipeline.run()
-print(ran[top_keywords])
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+res = pipeline.run()
+print(res[top_keywords])
