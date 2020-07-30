@@ -35,3 +35,7 @@ Functions implemented in pipeline are:
 #### clean_titles : get rid of punctuation and transform each title into lower case and then return it
 #### build_keyword_dictionary: return a dictionary of the word frequency in a title
 #### top_keywords : sort the result from build_keyword_dictionary decreasing order then return first 100 results.
+
+## Support 
+
+If you like this repo and find it useful, please consider (★) starring it (on top right of the page) so that it can reach a broader audience.
