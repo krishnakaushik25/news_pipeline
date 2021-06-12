@@ -1,6 +1,6 @@
 # news_pipeline
 
-**Objective:** To construct a data pipeline to retrieve the 100 most common keywords of the most popular articles on Hacker News!!
+**Objective:** To construct a data pipeline to retrieve the 100 most common keywords of the most popular articles on Hacker News
 
 A ,simple and directed acyclic graph(DAG) based, data pipeline filtering, cleaning, aggregating, summarizing json data from Hacker News( a social news website focusing on computer science and entrepreneurship , it's a link aggregator website that users vote up stories that are interesting to the community. It is similar to Reddit, but the community only revolves around on CS topics.).
 
